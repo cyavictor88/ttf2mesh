@@ -74,7 +74,7 @@ int main(int argc, const char **argv)
     printf("Export to wavefront \"%s\" with quality=%i...\n", argv[2], quality);
     fflush(stdout);
 
-    error = ttf_export_to_obj(font, argv[2], quality);
+    error = vicbabylon_ttf_export_to_obj(font, argv[2], quality);
     if (error != TTF_DONE)
     {
         fprintf(stderr, "Unable to export font: %s\n", ttf_error_str[error]);
