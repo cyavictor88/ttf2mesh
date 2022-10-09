@@ -1,0 +1,7 @@
+to genereate output mesh json file to be used for bablyon js math text mesh:
+
+make -C examples/build-linux-make all
+
+cd examples/build-linux-make/
+
+./ttf2obj path/to/.ttf/file/ /path/to/.obj(.json)/file/name
