@@ -5,3 +5,9 @@ make -C examples/build-linux-make all
 cd examples/build-linux-make/
 
 ./ttf2obj path/to/.ttf/file/ /path/to/.obj(.json)/file/name
+
+
+
+example ttf file source:
+https://github.com/cormullion/juliamono
+https://design.ubuntu.com/font/
