@@ -540,6 +540,7 @@ int ttf_glyph2mesh3d(ttf_glyph_t *glyph, ttf_mesh3d_t **output, uint8_t quality,
  * @return Operation result TTF_DONE, TTF_ERR_OPEN or TTF_ERR_WRITING
  */
 int ttf_export_to_obj(ttf_t *ttf, const char *file_name, uint8_t quality);
+int vicbabylon_ttf_export_to_obj(ttf_t *ttf, const char *file_name, uint8_t quality);
 
 /**
  * @brief Free the outline object
